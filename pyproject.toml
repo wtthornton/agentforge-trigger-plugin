@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "agentforge-trigger-plugin"
-version = "1.0.0"
+version = "1.1.0"
 description = "Test rig for AgentForge scheduler/trigger — job submit, cancel, lifecycle."
 requires-python = ">=3.12"
 dependencies = [
@@ -25,5 +25,9 @@ packages = ["agentforge_trigger"]
 [dependency-groups]
 dev = [
     "pytest>=9.0",
+    "pytest-asyncio>=1.0",
     "httpx>=0.28",
 ]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
