@@ -1,5 +1,5 @@
-<!-- tapps-claude-version: 3.12.78 -->
-<!-- BEGIN: tapps-obligations v3.12.78 -->
+<!-- tapps-claude-version: 3.12.87 -->
+<!-- BEGIN: tapps-obligations v3.12.87 -->
 # TAPPS Quality Pipeline
 
 This project uses the TAPPS MCP server for code quality enforcement.
